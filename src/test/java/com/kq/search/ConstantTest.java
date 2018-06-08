@@ -12,4 +12,9 @@ public class ConstantTest {
 	
 	public static final HttpHost[] ELASTIC_SEARCH_SERVERS = {new HttpHost("192.168.6.111",9200,"http")};
 	
+	public static final String GET = "GET";
+	public static final String PUT = "PUT";
+	public static final String POST = "POST";
+	public static final String DELETE = "DELETE";
+	
 }

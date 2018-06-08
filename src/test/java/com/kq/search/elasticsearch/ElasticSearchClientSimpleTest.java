@@ -35,7 +35,8 @@ public class ElasticSearchClientSimpleTest {
 	@Test
 	public void execute() throws IOException {
 		
-		Response response = restClient.performRequest("GET", "/account");
+//		Response response = restClient.performRequest("GET", "/account");
+		Response response = restClient.performRequest("GET", "_cat/segments");
 		
 		System.out.println(response);
 		System.out.println(response.getEntity());
