@@ -1,0 +1,45 @@
+{
+	"mappings": {
+		"_doc": {
+			"properties": {
+				"createUserId": {
+					"type": "keyword"
+				},
+				"id": {
+					"type": "keyword"
+				},
+				"categoryId": {
+					"type": "keyword"
+				},
+				"orgId": {
+					"type": "keyword"
+				},
+				"tenantId": {
+					"type": "keyword"
+				},
+				"code": {
+					"type": "text"
+				},
+				"name": {
+					"type": "text"
+				},
+				"orgName": {
+					"type": "text"
+				},
+				"tenantName": {
+					"type": "text"
+				},
+				"categoryName": {
+					"type": "keyword"
+				},
+				"price": {
+					"type": "double_range"
+				},
+				"createTime": {
+					"type": "date_range",
+					"format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+				}
+			}
+		}
+	}
+}

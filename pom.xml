@@ -110,6 +110,7 @@
 					<include>**/*.xls</include>
 					<include>**/*.yml</include>
 					<include>**/*.xml</include>
+					<include>**/*.json</include>
 					<include>**/*.properties</include>
 				</includes>
 				<filtering>false</filtering>
