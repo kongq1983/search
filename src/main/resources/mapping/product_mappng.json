@@ -32,11 +32,14 @@
 				"categoryName": {
 					"type": "keyword"
 				},
+				"createUserName": {
+					"type": "text"
+				},
 				"price": {
-					"type": "double_range"
+					"type": "double"
 				},
 				"createTime": {
-					"type": "date_range",
+					"type": "date",
 					"format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
 				}
 			}

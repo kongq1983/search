@@ -64,7 +64,7 @@ public class CsvToJson {
 				p.setTenantId(reader.get("tenantId".toUpperCase()));
 				p.setTenantName(reader.get("tenantName".toUpperCase()));
 				p.setCreateUserId(reader.get("createUserId".toUpperCase()));
-				p.setCategoryName(reader.get("createUserName".toUpperCase()));
+				p.setCreateUserName(reader.get("createUserName".toUpperCase()));
 				p.setCreateTime(DateUtil.stringToDate(reader.get("createTime".toUpperCase())));
 
 				list.add(p);
